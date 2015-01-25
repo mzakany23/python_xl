@@ -1,0 +1,3 @@
+Sub RandomNumbers()
+    RunPython ("import py_excel; py_excel.fill_sheet()")
+End Sub

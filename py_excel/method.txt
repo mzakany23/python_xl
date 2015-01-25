@@ -1,0 +1,14 @@
+Sub RandomNumbers()
+    RunPython ("import mymodule; mymodule.rand_numbers()")
+End Sub
+
+
+
+~> dir(Sheet)
+
+.['__class__', '__delattr__', '__dict__', '__doc__', '__format__', '__getattribute__', '__hash__', '__init__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'activate', 'active', 'add', 'all', 'autofit', 'clear', 'clear_contents', 'count', 'index', 'name']
+
+~> dir(s.wb)
+
+.['__class__', '__delattr__', '__dict__', '__doc__', '__format__', '__getattribute__', '__hash__', '__init__', '__module__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'active_sheet', 'caller', 'close', 'current', 'fullname', 'get_selection', 'get_xl_workbook', 'name', 'set_current', 'xl_app', 'xl_workbook']
+
